@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
       <div class="social-icons">
         <a href="https://www.facebook.com/share/1AdQi3ZHvw/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
+        
         <a href="https://www.instagram.com/brujaga_bn?igsh=YWh3Ym9lejNldHZx"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+        
       </div>
       <p>&copy; 2025 Payung Aman. All rights reserved.</p>
     </div>
@@ -22,3 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
   `;
   document.body.insertAdjacentHTML('beforeend', footer);
 });
+
+// <a href="#"><i class="fab fa-twitter"></i></a>
+// <a href="#"><i class="fab fa-linkedin"></i></a>
