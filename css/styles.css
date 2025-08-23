@@ -88,7 +88,8 @@ header {
 
 .logo img {
   height: 50px;
-  margin-right: 10px;
+  width: auto;
+  max-width: 200px;
 }
 
 .logo h1 {
@@ -285,6 +286,41 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 
+/* Featured In Section */
+.featured-in {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.featured-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.featured-logo {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.featured-logo:hover {
+  transform: translateY(-5px);
+  opacity: 0.8;
+}
+
+.logo-img {
+  max-height: 80px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
+}
+
+.featured-logo:hover {
+  filter: grayscale(0%);
+}
+
 /* About Section */
 .about {
   padding: 4rem 0;
@@ -316,6 +352,18 @@ nav a:hover {
 
 .team-member h3 {
   margin-bottom: 0.5rem;
+}
+
+.team-member.logo h1 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.logo .logo-img {
+  height: 50px;
+  width: auto;
+  max-width: 200px;
 }
 
 .team-member p {
