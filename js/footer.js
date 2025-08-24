@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="terms.html">Terms of Service</a>
       </div>
       <div class="social-icons">
-        <a href="https://www.facebook.com/brujagabot"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.facebook.com/payungaman"><i class="fab fa-facebook"></i></a>
         
-        <a href="https://www.instagram.com/brujaga_bn"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/payungaman"><i class="fab fa-instagram"></i></a>
         
       </div>
       <p>&copy; 2025 Payung Aman. All rights reserved.</p>
